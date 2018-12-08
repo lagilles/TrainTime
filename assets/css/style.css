@@ -1,0 +1,40 @@
+header {
+  padding: 120px 0px;
+  background-image: url("../images/railroad2.jpg");
+  background-size: 100% 100%;
+}
+
+.title {
+  font-size: 80px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.header-text {
+  font-size: 25px;
+  font: bold;
+  color: white;
+}
+
+.time-text {
+  font-size: 18px;
+}
+
+.card-title {
+  color: white;
+  padding-bottom: 5px;
+  padding-left: 15px;
+}
+
+.card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card-row {
+  margin: 10px 50px;
+}
+
+th {
+  font-weight: bold;
+}
