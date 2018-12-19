@@ -133,7 +133,7 @@ database.ref().on(
   }
 );
 
-// updates the schedule every minute (i didn't have time to figure out how to do this without a simple page reload because i also want to spend time on project #1)
+// updates the schedule every minute (i didn't have time to figure out how to do this without a page reload)
 setInterval(function() {
   location.reload(true);
 }, 60000);
