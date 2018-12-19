@@ -10,14 +10,22 @@ header {
   margin-bottom: 50px;
   color: #006400;
   font-weight: bold;
-  text-shadow: 3px 3px white;
+  /*text-shadow: 3px 3px white;*/
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 3px 3px 0 #2f4f4f, -1px -1px 0 #2f4f4f, 1px -1px 0 #2f4f4f,
+    -1px 1px 0 #2f4f4f, 1px 1px 0 #2f4f4f;
 }
 
 .header-text {
   font-size: 25px;
   color: white;
   font-weight: bold;
-  text-shadow: 3px 3px #006400;
+  /*text-shadow: 3px 3px #006400;*/
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #006400;
+  text-shadow: 3px 3px 0 #2f4f4f, -1px -1px 0 #2f4f4f, 1px -1px 0 #2f4f4f,
+    -1px 1px 0 #2f4f4f, 1px 1px 0 #2f4f4f;
 }
 
 .time-text {
